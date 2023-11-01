@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%; /* 填坑 高度 */
+
+}
+
+html {
+    font-size: 10px;
+    background: url(./background.jpg) bottom center;
+    background-size: cover; /* 修剪图片 超出则剪裁 */
+
+
+}
+
+.keys {
+    height: 100%;
+    display: flex; /* 弹性布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    /* background: green; */
+
+}
+
+.key{
+    border: .4rem solid #000;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
