@@ -7,3 +7,5 @@
     google 在线NLP平台
     .ipynb notebook
 - pipeline 核心模块，启动模块
+    pipeline(task,model)
+        遥遥领先，中文模型
