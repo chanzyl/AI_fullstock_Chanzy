@@ -21,7 +21,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-   
+    // console.log(app.globalData,'fdfdfdffd2222222222222f');
+    // api data 数据修改，自动更新页面 MVVM
+    setTimeout(()=>{
+      this.setData({
+      design:app.globalData.vehicles[0].meta.exterior_design
+    })
+    },3000)
+    
   },
 
   /**
@@ -35,11 +42,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-    console.log(app.globalData,'fdfdfdffd2222222222222f');
-    // api data 数据修改，自动更新页面 MVVM
-    this.setData({
-      design:app.globalData.vehicles[0].meta.exterior_design
-    })
+
   },
 
   /**
