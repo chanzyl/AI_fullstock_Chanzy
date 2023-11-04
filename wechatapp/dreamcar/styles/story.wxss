@@ -1,0 +1,24 @@
+.story.white{
+  background: #fff;
+}
+.story .content{
+  display: flex;  /* 设置弹性主轴方向 默认x轴 */
+
+  flex-direction: column;
+  height: 38.2vh;
+  padding-top: 10%;
+  text-align: center;
+  
+}
+.story .header{
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 32rpx;
+}
+.story .sub-header{
+  font-size: 28rpx;
+  text-transform: uppercase;
+  letter-spacing: 6rpx;
+  margin-bottom: 16rpx;
+  color: rgba(0, 0, 0, 0.75);
+}
